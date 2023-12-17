@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum Quotient GYM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mdiv">
+      <!-- ----------Navigation Bar----------  -->
+      <div class="navbar">
+        <ul class="mnav">
+          <li class="navmenu" id="logo">
+            <a href="#home"
+              ><img
+                src="logo/logo.png"
+                alt=""
+                style="height: 40px; margin-top: 15px"
+            /></a>
+          </li>
+          <li class="navmenu"><a href="#home">Home</a></li>
+          <li class="navmenu"><a href="#about">About</a></li>
+          <li class="navmenu"><a href="#services">Services</a></li>
+          <li class="navmenu"><a href="#pricing">Pricing</a></li>
+          <li class="navmenu"><a href="#contact">Contact Us</a></li>
+          <!-- <li class="navmenu"><a href="#"></a></li> -->
+          <li class="navmenu">
+            <input
+              class="signIn"
+              type="submit"
+              name="Sign in"
+              value="Join Now"
+              onclick="joinNow()"
+            />
+          </li>
+        </ul>
+      </div>
+      <!-- ----------Home Section----------  -->
+      <div class="home_sec" id="home">
+        <div class="homeText">
+          <p id="text">BUILD YOUR BODY <br />STRONG</p>
+          <p id="subtext">Achieve your health and fitness goals at any stage</p>
+        </div>
+      </div>
+
+      <!-- ----------About Section----------  -->
+      <div class="about_sec" id="about">
+        <div class="about_tab">
+          <div class="about_img">
+            <img
+              class="my_img"
+              src="https://images.pexels.com/photos/3289711/pexels-photo-3289711.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="GYM Image"
+              style="width: 90%; height: 400px; margin-left: 50px"
+            />
+          </div>
+          <div class="about_text">
+            <h2>About us</h2>
+            <p class="about_qt">
+              WE PROVIDE TRAINING <br />AND BEST
+              <span style="color: orangered">FITNESS <br />MOTIVATIONS</span>
+            </p>
+            <p class="about_st">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+              voluptates dolorem suscipit adipisci illo aut accusamus <br />
+              impedit culpa earum perferendis error dolores placeat explicabo
+              quam, dolorum qui animi, consectetur ducimus!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------Services Section----------  -->
+      <div class="services_text" id="services">
+        <div>
+          <p id="p1">What We Do</p>
+          <hr class="hr_line" />
+
+          <p style="font-size: 40px">
+            OUR <span class="services_st">SERVICES</span>
+          </p>
+        </div>
+      </div>
+      <div class="services_sec">
+        <div class="services">
+          <div class="service_1">
+            <p>Personal Training</p>
+          </div>
+          <div class="service_2">
+            <p>Strength training</p>
+          </div>
+          <div class="service_3">
+            <p>Cardio Training</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----------Pricing Section----------- -->
+      <div class="services_text" id="pricing" style="background-color: #28282b">
+        <div>
+          <p id="p1">OUR PLAN</p>
+          <hr class="hr_line" />
+
+          <p style="font-size: 40px">
+            CHOOSE YOUR <span class="services_st">PRICING PLAN</span>
+          </p>
+        </div>
+      </div>
+      <div class="pricing_sec">
+        <div class="price" id="plan1">
+          <p class="membership_name">GOLD</p>
+          <p>
+            <span
+              style="
+                font-size: 35px;
+                color: white;
+                font-weight: bolder;
+                font-family: Arial black;
+                margin-left: 30%;
+              "
+              >$15</span
+            ><span
+              style="
+                color: white;
+                font-size: 15px;
+                font-weight: bolder;
+                font-family: Arial black;
+                font-variant: small-caps;
+              "
+              >/month</span
+            >
+          </p>
+          <hr class="hr_line" />
+          <p
+            style="
+              color: white;
+              font-size: 15px;
+              font-family: 'Times New Roman', Times, serif;
+              text-align: center;
+            "
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            perferendis, commodi porro dicta facilis totam in quisquam
+            repellendus, vero reprehenderit expedita. Expedita soluta optio hic!
+          </p>
+          <input
+            type="submit"
+            name="joinnow"
+            value="Join Now"
+            class="price_btm"
+          />
+        </div>
+        <div class="price" id="plan2">
+          <p class="membership_name">PLATINUM</p>
+          <p>
+            <span
+              style="
+                font-size: 35px;
+                color: white;
+                font-weight: bolder;
+                font-family: Arial black;
+                margin-left: 30%;
+              "
+              >$25</span
+            ><span
+              style="
+                color: white;
+                font-size: 15px;
+                font-weight: bolder;
+                font-family: Arial black;
+                font-variant: small-caps;
+              "
+              >/month</span
+            >
+          </p>
+          <hr class="hr_line" />
+          <p
+            style="
+              color: white;
+              font-size: 15px;
+              font-family: 'Times New Roman', Times, serif;
+              text-align: center;
+            "
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            perferendis, commodi porro dicta facilis totam in quisquam
+            repellendus, vero reprehenderit expedita. Expedita soluta optio hic!
+          </p>
+          <input
+            type="submit"
+            name="joinnow"
+            value="Join Now"
+            class="price_btm"
+          />
+        </div>
+        <div class="price" id="plan3">
+          <p class="membership_name">DIAMOND</p>
+          <p>
+            <span
+              style="
+                font-size: 35px;
+                color: white;
+                font-weight: bolder;
+                font-family: Arial black;
+                margin-left: 30%;
+              "
+              >$35</span
+            ><span
+              style="
+                color: white;
+                font-size: 15px;
+                font-weight: bolder;
+                font-family: Arial black;
+                font-variant: small-caps;
+              "
+              >/month</span
+            >
+          </p>
+          <hr class="hr_line" />
+
+          <p
+            style="
+              color: white;
+              font-size: 15px;
+              font-family: 'Times New Roman', Times, serif;
+              text-align: center;
+            "
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            perferendis, commodi porro dicta facilis totam in quisquam
+            repellendus, vero reprehenderit expedita. Expedita soluta optio hic!
+          </p>
+          <input
+            type="submit"
+            name="joinnow"
+            value="Join Now"
+            class="price_btm"
+          />
+        </div>
+      </div>
+
+      <!-- ----------Contact Section----------- -->
+      <div class="contact_sec" id="contact">
+        <div class="contact_add">
+          <!-- <a href="#home"
+              ><img
+                src="logo/logo.png"
+                alt=""
+                style="height: 40px; margin-top: 15px"
+            /></a> -->
+          <p class="cp1"><span style="color: white">GET IN</span> TOUCH</p>
+          <p>
+            <img
+              src="logo/Location.png"
+              alt="Address"
+              class="contact_icons"
+              
+            />Address: Deccan, Pune
+          </p>
+          <p>
+            <img
+              src="logo/Mobile.png"
+              alt="Mob NO."
+              class="contact_icons"
+            />Mob No.: +91 XXXXXXXXXX
+          </p>
+          <p>
+            <img
+              src="logo/email.png"
+              alt="Email Id"
+              class="contact_icons"
+            />Email-Id: abcd@gmail.com
+          </p>
+        </div>
+
+        <div class="contact_form">
+          <form action="">
+            <label for="name">NAME</label>
+            <br/>
+            <input type="text" name="name" id="name" />
+            <br /><br />
+            <label for="email">E-mail</label>
+            <br/>
+            <input type="email" name="email" id="email" />
+            <br /><br />
+            <label for="phoneno">Phone Number</label>
+            <br/>
+            <input
+              type="text"
+              name="phoneno"
+              id="phoneno"
+              maxlength="10"
+              pattern="[6-9]{1}[0-9]{9}"
+            />
+            <br/> <br/>
+            <input type="submit" name="submit" id="submit" />
+          </form>
+        </div>
+      </div>
+
+      <!-- -----------Footer section----------  -->
+      <div class="footer_sec">
+        <hr class="foot_hr">
+        <p style="display: inline; margin-left: 10%;">&#xA9 Copyright 2023 All rights reserved</p>
+        <div class="social_icon">
+          <a href="https://www.facebook.com"><img src="logo/facebook.png" alt="facebook"></a>
+          <a href="https://www.instagram.com"><img src="logo/instagram.png" alt="instagram"></a>
+          <a href="https://twitter.com/"><img src="logo/twitter.png" alt="twitter"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript for joinNow  -->
+    <script>
+      function joinNow(){
+        window.location.href="login.html";
+      }
+    </script>
+  </body>
+</html>
